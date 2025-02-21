@@ -1,0 +1,30 @@
+name: transact_pay_sdk
+description: "A new Flutter package project."
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ^3.6.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  intl: ^0.19.0
+  transact_pay: ^0.0.5
+  webview_flutter: ^4.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  assets:
+    - assets/images/
+    - assets/images/logo.png
+    - assets/images/footer.png
+
+
