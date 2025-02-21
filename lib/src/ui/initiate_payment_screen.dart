@@ -1,18 +1,11 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:transact_pay_sdk/src/config/api_config.dart';
-import 'package:transact_pay_sdk/src/common_widget/app_button.dart';
-import 'package:transact_pay_sdk/src/common_widget/app_field_label.dart';
-import 'package:transact_pay_sdk/src/common_widget/app_header.dart';
-import 'package:transact_pay_sdk/src/common_widget/app_textfield.dart';
 import 'package:transact_pay_sdk/src/config/transact_pay_request.dart';
 import 'package:transact_pay_sdk/src/constant/app_images.dart';
 import 'package:transact_pay_sdk/src/models/order_response_model.dart';
 import 'package:transact_pay_sdk/src/ui/payment_type_screen.dart';
 import 'package:transact_pay_sdk/src/ui/popup_dialog/loading_progress_dialog.dart';
-import 'package:transact_pay_sdk/src/utils/money_formatter.dart';
 
 class PaymentInitiationScreen extends StatefulWidget {
   final String apiKey;
@@ -40,22 +33,22 @@ String secretKey = "";
 Widget returnScreen = Scaffold();
 
 class _PaymentInitiationScreenState extends State<PaymentInitiationScreen> {
-  final _formKey = GlobalKey<FormState>();
+  //final _formKey = GlobalKey<FormState>();
 
-  final TextEditingController _firstNameController = TextEditingController();
-  final TextEditingController _lastNameController = TextEditingController();
-  final TextEditingController _amountController = TextEditingController();
-  final TextEditingController _phoneNumberController = TextEditingController();
-  final TextEditingController _emailController = TextEditingController();
-  final TextEditingController _descriptionController = TextEditingController();
+  // final TextEditingController _firstNameController = TextEditingController();
+  // final TextEditingController _lastNameController = TextEditingController();
+  // final TextEditingController _amountController = TextEditingController();
+  // final TextEditingController _phoneNumberController = TextEditingController();
+  // final TextEditingController _emailController = TextEditingController();
+  // final TextEditingController _descriptionController = TextEditingController();
 
   bool isValid = false;
 
-  void _validateForm() {
-    setState(() {
-      isValid = _formKey.currentState?.validate() ?? false;
-    });
-  }
+  // void _validateForm() {
+  //   setState(() {
+  //     isValid = _formKey.currentState?.validate() ?? false;
+  //   });
+  // }
 
   late TransactPay transactPay;
 

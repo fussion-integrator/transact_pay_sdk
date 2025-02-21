@@ -1,7 +1,6 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:transact_pay_sdk/src/common_widget/app_button.dart';
 import 'package:transact_pay_sdk/src/common_widget/app_header.dart';
 import 'package:transact_pay_sdk/src/common_widget/app_payment_type_selection.dart';

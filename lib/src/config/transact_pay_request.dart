@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-import 'package:transact_pay/ui/screens/initiate_payment_screen.dart';
 import 'package:transact_pay_sdk/src/config/transact_pay_api.dart';
 import 'package:http/http.dart' as http;
 

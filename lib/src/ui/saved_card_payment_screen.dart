@@ -28,11 +28,9 @@ class SavedCardPaymentScreen extends StatefulWidget {
 }
 
 class _SavedCardPaymentScreenState extends State<SavedCardPaymentScreen> {
-  final TextEditingController _cardNumberController = TextEditingController();
-  final TextEditingController _expiryDateController = TextEditingController();
-  final TextEditingController _cvvController = TextEditingController();
-
-  final _formKey = GlobalKey<FormState>();
+  // final TextEditingController _cardNumberController = TextEditingController();
+  // final TextEditingController _expiryDateController = TextEditingController();
+  // final TextEditingController _cvvController = TextEditingController();
 
   bool isValid = false;
 

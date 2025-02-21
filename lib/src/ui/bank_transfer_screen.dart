@@ -2,7 +2,6 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:get/get.dart';
 import 'package:transact_pay/transact_pay.dart';
 import 'package:transact_pay_sdk/src/common_widget/app_bank_detail.dart';
 import 'package:transact_pay_sdk/src/common_widget/app_button.dart';

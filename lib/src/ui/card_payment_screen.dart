@@ -12,7 +12,6 @@ import 'package:transact_pay_sdk/src/constant/app_images.dart';
 import 'package:transact_pay_sdk/src/models/card_payment_response_model.dart';
 import 'package:transact_pay_sdk/src/models/order_response_model.dart';
 import 'package:transact_pay_sdk/src/ui/card_3ds_screen.dart';
-import 'package:transact_pay_sdk/src/ui/popup_dialog/card_payment_progress_popup.dart';
 import 'package:transact_pay_sdk/src/ui/popup_dialog/popup_exports.dart';
 import 'package:transact_pay_sdk/src/ui/saved_card_payment_screen.dart';
 import 'package:transact_pay_sdk/src/utils/credit_card_formatter.dart';

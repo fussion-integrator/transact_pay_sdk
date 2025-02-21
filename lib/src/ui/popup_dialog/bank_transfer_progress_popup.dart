@@ -1,8 +1,5 @@
 import 'dart:convert';
-import 'dart:typed_data';
-
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:transact_pay_sdk/src/common_widget/app_button.dart';
 import 'package:transact_pay_sdk/src/common_widget/app_countdown_timer.dart';
 import 'package:transact_pay_sdk/src/config/api_endpoints.dart';
@@ -38,15 +35,11 @@ class _BankTransferProgressPopupState extends State<BankTransferProgressPopup> {
   }
 
   Future<void> verifyBankTransferOrder() async {
-    final payload = {"reference": widget.orderReference};
-    print(secretKey);
-    print(widget.orderReference);
-
-    String bodyString = json.encode(payload);
+    //String bodyString = json.encode(payload);
 
     // Encrypt the JSON string payload
-    Uint8List encryptedBody = encryptionService.encryptPayload(bodyString);
-    String encryptedBase64 = base64.encode(encryptedBody);
+    //Uint8List encryptedBody = encryptionService.encryptPayload(bodyString);
+    //String encryptedBase64 = base64.encode(encryptedBody);
 
     // Define the request headers including the API key
     var headers = {
