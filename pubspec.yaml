@@ -1,7 +1,8 @@
 name: transact_pay_sdk
-description: "A new Flutter package project."
+description: "TransactPay Flutter Package provide innovative and flexible European BIN sponsorship and modular payment, debit, and prepaid services."
 version: 0.0.1
-homepage:
+homepage: https://github.com/fussion-integrator/transact_pay_sdk
+repository: https://github.com/fussion-integrator/transact_pay_sdk
 
 environment:
   sdk: ^3.6.1
